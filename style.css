@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
+  color: #f3f3f3;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.3em;
+  max-width: 35em;
+  line-height: 27px;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h1 {
+  margin:0;
+  font-family: 'Bickham Script Two';
+  font-size: 4em;
+  /*color: #9e958c;*/
+}
+
+.about h2, .theatre h2, .cinema h2 {
+  font-size: 2em;
+  padding-left: 1.2em;
+  border-left: 0.1em #9e958c solid; 
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+section {
+  padding: 2.5em;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  position: relative;
+}
+
+header {
+  height: 100vh;
+  min-height: 30em;
+  background: url(/img/background/01.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.brand {
+  font-size: 3.5em;
+  font-family: 'Bickham Script Two';
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #f3f3f3;
+}
+
+nav a:hover {
+  color: #9e958c;
+}
+
+.header-body {
+  padding: 3em;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-body p {
+  max-width: 25em;
+}
+
+.header-body a {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.header-body a:hover {
+  color: #9e958c;
+}
+
+.heading h2 {
+  margin-top: 2em ;
+  margin-bottom: 2em;
+}
+
+.heading p {
+  margin-left: 3em;
+  margin-bottom: 2em;
+  display: inline-block;
+}
